@@ -40,9 +40,9 @@ export const config = {
         }
     },
     session: { strategy: "jwt" },
-    pages: {
-        signIn: '/auth/signin',
-    }
+    // pages: {
+    //     signIn: '/auth/signin',
+    // }
 
 } satisfies NextAuthConfig
 
